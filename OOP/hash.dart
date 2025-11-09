@@ -19,7 +19,7 @@ void main(){
 
 }
 
-class Person {
+class Person  {//extends Equitable
   final String name;
   final int age;
   final String residence;
@@ -32,5 +32,5 @@ class Person {
   }
 
   @override
-  int get hashCode => name.hashCode;
+  int get hashCode => name.hashCode; // Flutter its replaced with Equitable dep to avoid redudancy in user data
 }
